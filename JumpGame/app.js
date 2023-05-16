@@ -1,5 +1,6 @@
 const nums = [2, 3, 1, 1, 4];
 const invalid = [3, 2, 1, 0, 4];
+// https://leetcode.com/problems/jump-game/description/
 
 var canJump = function (nums) {
   let maxJump = nums[0];
@@ -38,4 +39,4 @@ var jump = function (startIndex, nums) {
     return jump(nums[i] + i, nums);
   }
 };
-console.log(canJump(z));
+console.log(canJump(nums));
