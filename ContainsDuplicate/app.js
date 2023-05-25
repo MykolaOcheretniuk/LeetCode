@@ -1,3 +1,5 @@
+//https://leetcode.com/problems/contains-duplicate/description/
+
 const nums = [1, 2, 3, 1]; //true
 const nums2 = [1, 2, 3, 4]; //false
 const nums3 = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]; //true
