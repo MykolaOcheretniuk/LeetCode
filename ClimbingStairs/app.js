@@ -14,7 +14,6 @@ var climbStairs = function (n) {
   return result;
 };
 
-// ToDo: memorization func
 var climbStairsRecursive = function (n) {
   const cache = new Map();
   return climb(0, n, 0, cache);
