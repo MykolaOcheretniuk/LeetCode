@@ -1,3 +1,4 @@
+// https://leetcode.com/problems/same-tree/submissions/
 class TreeNode {
   val;
   left;
@@ -18,7 +19,7 @@ const treeB = new TreeNode(
   1,
   new TreeNode(2, null, null),
   new TreeNode(3, null, null)
-);
+);//true
 
 const treeA1 = new TreeNode(
   1,
@@ -29,7 +30,7 @@ const treeB1 = new TreeNode(
   1,
   new TreeNode(1, null, null),
   new TreeNode(2, null, null)
-);
+);//false
 
 function isSameTree(p, q) {
   let isSame = true;
