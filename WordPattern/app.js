@@ -8,7 +8,7 @@ const s2 = "dog cat cat dog"; // false
 const pattern3 = "abba";
 const s3 = "dog dog dog dog"; // false
 const pattern4 = "abc";
-const s4 = "b c a"; //false
+const s4 = "b c a"; //true
 var wordPattern = function (pattern, s) {
   const words = s.split(" ");
   if (words.length !== pattern.length) return false;
